@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import Search from './components/Search'
+import Spinner from './components/Spinner'
 
 const API_BASE_URL = "https://api.themoviedb.org/3/";
 const API_KEY = import.meta.env.VITE_TMDB_API_READ_ACCESS_TOKEN
@@ -67,7 +68,7 @@ function App() {
             <h2>All Movies</h2>
 
             {isLoading ? (
-              <p className="text-white">Loading movies...</p>
+              <Spinner></Spinner>
             ) : errorMessage ? (
               <p className="text-red-500">{errorMessage}</p>
             ) : (
