@@ -1,16 +1,10 @@
-# React + Vite
+# React Movie App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A movie app that allows you to search for movies and displays trending movies based on user search data. Made with React and Vite while following course by JS Mastery: https://www.youtube.com/watch?v=dCLhUialKPQ
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+<img width="2560" height="1368" alt="Screenshot 2026-01-17 184508" src="https://github.com/user-attachments/assets/bc53fbf8-3a65-40e1-b216-dfee1540c13c" />
+<img width="2560" height="1368" alt="Screenshot 2026-01-17 184505" src="https://github.com/user-attachments/assets/0506f6f9-e4c1-4f75-a1b8-bfe1b88b230a" />
+<img width="2560" height="1368" alt="Screenshot 2026-01-17 184458" src="https://github.com/user-attachments/assets/694a02bc-ae68-4d28-b7c2-245f05b73669" />
+<img width="2560" height="1368" alt="Screenshot 2026-01-17 184511" src="https://github.com/user-attachments/assets/b7993fd3-b5d1-46b1-9689-c2e32a01afff" />
